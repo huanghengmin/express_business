@@ -47,6 +47,15 @@
         <url-pattern>/DownLoadAndroid2</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>DownLoadClient</servlet-name>
+        <servlet-class>com.hzih.express.web.servlet.DownLoadClient</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DownLoadClient</servlet-name>
+        <url-pattern>/DownLoadClient</url-pattern>
+    </servlet-mapping>
+
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
