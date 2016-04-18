@@ -197,4 +197,7 @@
     <bean id="ClientVersionAction" class="com.hzih.express.web.action.client.ClientVersionAction">
     </bean>
 
+    <bean id="UpgradeVersionAction" class="com.hzih.express.web.action.client.UpgradeVersionAction">
+    </bean>
+
 </beans>
